@@ -1,6 +1,7 @@
 **Instructions to configure datastore details**:
 
 -update properties (DBHOST, DBPORT, DBNAME, DBUSER, PASSWORD) under jetty-maven_plugin and maven-surefire-plugin in pom.xml
+
 -if mongoDB does not need authentication, leave DBUSER and PASSWORD empty
 
 To run the application say  "mvn jetty:run" . You can access the application at http://localhost:8080/
